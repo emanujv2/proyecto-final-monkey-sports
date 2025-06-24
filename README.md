@@ -1,39 +1,71 @@
-# WordPress
+# Proyecto Final - Monkey Sports 🏀🐒
+**Curso:** Desarrollo Profesional con WordPress  
+**Nombre:** Emanuel Jiménez Vargas  
+**Fecha:** 24 de junio, 2025  
 
-This is a WordPress repository configured to run on the [Pantheon platform](https://pantheon.io).
+---
 
-Pantheon is website platform optimized and configured to run high performance sites with an amazing developer workflow. There is built-in support for features such as Varnish, Redis, Apache Solr, New Relic, Nginx, PHP-FPM, MySQL, PhantomJS and more. 
+## 📌 Descripción
+Este proyecto es un sitio completo desarrollado en WordPress con personalización avanzada mediante un **tema hijo**, **3 plugins únicos**, contenido estructurado y configuración local con **DDEV**.
 
-## Getting Started
+---
 
-### 1. Spin-up a site
+## 📁 Estructura del Entregable
 
-If you do not yet have a Pantheon account, you can create one for free. Once you've verified your email address, you will be able to add sites from your dashboard. Choose "WordPress" to use this distribution.
+### 1. 🔗 Repositorio GitHub
+Repositorio con todo el código fuente, incluyendo:
+- Tema hijo personalizado
+- Plugins desarrollados
+- Archivos del entorno `.ddev/`
 
-### 2. Load up the site
+👉 [Repositorio GitHub](https://github.com/emanujv2/proyecto-final-monkey-sports)
 
-When the spin-up process is complete, you will be redirected to the site's dashboard. Click on the link under the site's name to access the Dev environment.
+---
 
-![alt](http://i.imgur.com/2wjCj9j.png?1, '')
+### 2. 💾 Archivo exportado (.wpress)
+Archivo `.wpress` generado con All-in-One WP Migration, que permite importar el sitio completo en segundos.
 
-### 3. Run the WordPress installer
+📥 [Descargar archivo `.wpress`](https://drive.google.com/drive/folders/1crgZV7kDS72goBIFGTL0N_RUcbEI8UPn?usp=sharing)
 
-How about the WordPress database config screen? No need to worry about database connection information as that is taken care of in the background. The only step that you need to complete is the site information and the installation process will be complete.
+---
 
-We will post more information about how this works but we recommend developers take a look at `wp-config.php` to get an understanding.
+### 3. 🖥️ Sitio desplegado localmente con DDEV
+El proyecto fue probado y ejecutado exitosamente en entorno local mediante DDEV.
 
-![alt](http://i.imgur.com/4EOcqYN.png, '')
+📷 Captura del sitio corriendo en DDEV:
+![Captura sitio en DDEV](https://drive.google.com/drive/folders/1crgZV7kDS72goBIFGTL0N_RUcbEI8UPn?usp=drive_link)
 
-If you would like to keep a separate set of configuration for local development, you can use a file called `wp-config-local.php`, which is already in our .gitignore file.
+---
 
-### 4. Enjoy!
+### 4. 🎥 Video explicativo (YouTube o Drive)
+Incluye:
+- Estructura del proyecto
+- Revisión del tema hijo y plugins
+- Demostración funcional
 
-![alt](http://i.imgur.com/fzIeQBP.png, '')
+📺 [Ver video explicativo](https://drive.google.com/drive/folders/1crgZV7kDS72goBIFGTL0N_RUcbEI8UPn?usp=sharing)
 
-## Branches
+---
 
-The `default` branch of this repository is where PRs are merged, and has [CI](https://github.com/pantheon-systems/WordPress/tree/default/.circleci) that copies `default` to `master` after removing the CI directories. This allows customers to clone from `master` and implement their own CI without needing to worry about potential merge conflicts.
+## ✅ Funcionalidades principales
 
-## Custom Upstreams
+- 🧩 Tema hijo basado en Astra  
+- 🎨 Personalización de estilos vía `style.css`  
+- 🧱 Plantilla personalizada con `page-plantilla-personalizada.php`  
+- 🔌 Plugins:
+  - Shortcode saludo
+  - Plugin de integración con API externa
+  - Mejora de administración en panel  
+- 📰 Páginas: Home, Blog, Acerca de  
+- 🛠️ CPT: Proyectos  
+- 📦 DDEV para entorno local reproducible
 
-If you are using this repository as a starting point for a custom upstream, be sure to review the [documentation](https://pantheon.io/docs/create-custom-upstream#pull-in-core-from-pantheons-upstream) and pull the core files from the `master` branch.
+---
+
+## 🛠️ Tecnologías
+
+- WordPress 6.8  
+- PHP 8.2  
+- DDEV  
+- Git + GitHub  
+- HTML / CSS personalizado  
