@@ -10,7 +10,23 @@
 
 /**
  * Pantheon platform settings. Everything you need should already be set.
+ * 
+ * 
  */
+
+
+if (file_exists(__DIR__ . '/../.ddev/wp-config-ddev.php')) {
+    include __DIR__ . '/../.ddev/wp-config-ddev.php';
+}
+
+define('DB_NAME', 'db');
+define('DB_USER', 'db');
+define('DB_PASSWORD', 'db');
+define('DB_HOST', 'db');
+
+
+
+
 if (file_exists(dirname(__FILE__) . '/wp-config-pantheon.php') && isset($_ENV['PANTHEON_ENVIRONMENT'])) {
 	require_once(dirname(__FILE__) . '/wp-config-pantheon.php');
 
@@ -32,10 +48,7 @@ if (file_exists(dirname(__FILE__) . '/wp-config-pantheon.php') && isset($_ENV['P
  * If you are only running on Pantheon, you can ignore this block.
  */
 } else {
-	define('DB_NAME',          'database_name');
-	define('DB_USER',          'database_username');
-	define('DB_PASSWORD',      'database_password');
-	define('DB_HOST',          'database_host');
+
 	define('DB_CHARSET',       'utf8');
 	define('DB_COLLATE',       '');
 	define('AUTH_KEY',         'put your unique phrase here');

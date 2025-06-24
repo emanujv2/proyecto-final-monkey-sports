@@ -1,0 +1,105 @@
+/*
+Theme Name: Mi Tema Hijo
+Template: astra
+Version: 1.0
+*/
+
+
+
+/* Estilos del hijo */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #cc0000;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+}
+/* HERO de Home */
+.home-hero {
+    text-align: center;
+    background: linear-gradient(to right, #ffcccc, #ffe6cc);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.home-hero h2 {
+    color: #cc0000;
+    font-size: 2.8rem;
+}
+
+.home-hero p {
+    font-size: 1.3rem;
+}
+
+/* Features de Home */
+.home-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.home-features .feature {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.home-features .feature h3 {
+    color: #0077cc;
+}
+
+/* Acerca de */
+.about {
+    background: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.about img {
+    margin-top: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Plugin pages */
+.plugin-page {
+    background: #fff7e6;
+    padding: 30px;
+    text-align: center;
+}
+
+.plugin-page h2 {
+    color: #ff6600;
+}
